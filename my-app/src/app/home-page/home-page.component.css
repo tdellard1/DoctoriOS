@@ -49,8 +49,13 @@
     margin-top: 20px;
   }
   #september-flyer {
+      background-image: url("../images/septemberFlyers.png");
       width: 200px;
       height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
   }
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
