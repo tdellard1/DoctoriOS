@@ -17,7 +17,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 150px;
-    height: 150px;
+    height: 122px;
+    padding-left: 15rem;
 }
 
 .nav {
@@ -25,11 +26,7 @@
     text-align: right;
 }
 
-.menu {
-    margin: 0 30px 0 0;
-}
-
-.menu a {
+ a {
     color: grey;
     margin: 0 10px;
     line-height: 70px;
