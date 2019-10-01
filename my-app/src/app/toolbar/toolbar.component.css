@@ -7,7 +7,6 @@
     border-bottom: 1px solid #EAEAEB;
     text-align: right;
     height: 84px;
-    line-height: 70px;
     background: rgb(4, 116, 192);
     background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);
 }
@@ -15,7 +14,11 @@
 .logo {
     width: 19rem;
     height: 8rem;
-    margin-right: 42rem;
+    margin-right: 42rem; 
+    background-image: url("../images/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .menu {
@@ -26,6 +29,7 @@
     color: grey;
     margin: 0 10px;
     line-height: 70px;
+    text-decoration: none;
 }
 
 span {
@@ -46,10 +50,15 @@ label {
 @media only screen and (max-width: 600px) {
     .nav {
         height: 6.5rem;
+        line-height: 70px;
     }
     .logo {
-        height: auto;
-        margin: 0;
+        width: 100%;
+        margin-right: 42rem;
+        background-image: url("../images/logo.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     label {
         display: block;
