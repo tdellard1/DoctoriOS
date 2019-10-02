@@ -9,6 +9,8 @@
     height: 84px;
     background: rgb(4, 116, 192);
     background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);
+    display: flex;
+    flex-direction: row;
 }
 
 .logo {
@@ -19,10 +21,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+    display: flex;
+    flex-direction: row;
 }
 
 .menu {
     margin: 9px 30px 0 0;
+   
 }
 
 .menu a {
@@ -50,7 +55,7 @@ label {
 @media only screen and (max-width: 600px) {
     .nav {
         height: 6.5rem;
-        line-height: 70px;
+        display:block;
     }
     .logo {
         width: 100%;
@@ -59,6 +64,8 @@ label {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        flex-direction: row;
     }
     label {
         display: block;
