@@ -1,11 +1,18 @@
 <mat-toolbar>
-    <div class="logo"></div>
-    <label for="toggle">&#9776;</label>
-    <input type="checkbox" id="toggle">
-    <div class="menu">
-        <a [routerLink]="['/homePage']">Home</a>
-        <a [routerLink]="['/servicesPage']">Services</a>
-        <a [routerLink]="['/bookingPage']"><span>Book</span></a>
-        <a [routerLink]="['/blogPage']">Blog</a>
-    </div>
+  <img src="../../assets/images/logo.png" alt="doctorios">
+  <span class="spacer"></span>
+  <div class="links">
+    <a [routerLink]="['/homePage']">Home</a>
+    <a [routerLink]="['/servicesPage']">Services</a>
+    <a [routerLink]="['/bookingPage']"><span>Book</span></a>
+    <a [routerLink]="['/blogPage']">Blog</a>
+  </div>
+  <mat-icon (click)="showMenu = !showMenu">menu</mat-icon>
 </mat-toolbar>
+
+<div *ngIf="showMenu" class="menu">
+  <a [routerLink]="['/homePage']">Home</a>
+  <a [routerLink]="['/servicesPage']">Services</a>
+  <a [routerLink]="['/bookingPage']"><span>Book</span></a>
+  <a [routerLink]="['/blogPage']">Blog</a>
+</div>
