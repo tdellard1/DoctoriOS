@@ -1,46 +1,54 @@
-
-
-.home-container {
-    max-width: 900px;
-    margin: 0 auto;
+/*@media only screen and (max-width: 600px) {*/
+  .home-container {
+    margin: auto;
     display: flex;
-}
+  }
 
-.home {
-    background-color: rgb(206, 198, 198);
+  .home {
     padding: 20px;
     flex: 1;
-    margin-right: 1rem;
-    margin-top: 1rem;
 }
-h2{
+
+  .logo {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+     background: rgb(4, 116, 192);
+    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);;
+  }
+  h2 {
+    margin-top: 5rem;
     text-align: center;
-}
+  }
 
-/* .flyer {
-    background-color: yellow;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-} */
-
-.flyer-a {
+  /* .flyer {
+      background-color: yellow;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+  } */
+  .flyer-a {
     background-color: #c0dbe2;
     flex: 1;
     margin-bottom: 2rem;
     margin-top: 1rem;
-}
+  }
 
-.flyer-b {
+  .flyer-b {
     background-color: #cdf1c3;
     flex: 1;
-}
-img {
-    width: 29rem;
-    height: 18rem;
-}
-.halloween {
-    width: 16rem;
-    height: 16rem;
-   
-}
+  }
+
+
+  /*img {*/
+  /*   width: 29rem;*/
+  /*   height: 18rem;*/
+  /* }*/
+  #halloween {
+    width: 100%;
+    height: auto;
+
+  }
+/*}*/
