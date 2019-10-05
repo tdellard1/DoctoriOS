@@ -1,54 +1,67 @@
-/*@media only screen and (max-width: 600px) {*/
-  .home-container {
+.home-container {
     margin: auto;
     display: flex;
-  }
+}
 
-  .home {
+.home {
     padding: 20px;
     flex: 1;
 }
 
-  .logo {
+.logo {
     width: 100%;
     height: auto;
-  }
+}
 
-  h1 {
-     background: rgb(4, 116, 192);
-    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);;
-  }
-  h2 {
+h1 {
+    background: rgb(4, 116, 192);
+    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);
+    ;
+}
+
+#deal {
     margin-top: 5rem;
     text-align: center;
-  }
+}
 
-  /* .flyer {
-      background-color: yellow;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-  } */
-  .flyer-a {
+h2, h3 {
+    text-align: center;
+}
+
+.flyer-a {
     background-color: #c0dbe2;
     flex: 1;
     margin-bottom: 2rem;
     margin-top: 1rem;
-  }
+}
 
-  .flyer-b {
+.flyer-b {
     background-color: #cdf1c3;
     flex: 1;
-  }
+}
 
-
-  /*img {*/
-  /*   width: 29rem;*/
-  /*   height: 18rem;*/
-  /* }*/
-  #halloween {
+#halloween {
     width: 100%;
     height: auto;
+}
 
-  }
-/*}*/
+.quick-links-container {
+    background-color: #000;
+    text-transform: uppercase;
+    margin: 7px 0;
+}
+
+.left-column {
+    padding: 14px 0;
+  
+    display: flex;
+}
+
+.right-column {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
