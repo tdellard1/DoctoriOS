@@ -24,9 +24,19 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
+h2 {
     text-align: center;
 }
+ h3{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    height: 12rem;
+    font-size: 3.5rem;
+    font-family: 'Nanum Brush Script', cursive;
+
+
+ }
 
 .flyer-a {
     background-color: #c0dbe2;
@@ -49,6 +59,7 @@ h2, h3 {
     background-color: #000;
     text-transform: uppercase;
     margin: 7px 0;
+    height: 3rem;
 }
 
 .left-column {
