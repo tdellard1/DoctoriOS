@@ -8,17 +8,6 @@
     flex: 1;
 }
 
-.logo {
-    width: 100%;
-    height: auto;
-}
-
-h1 {
-    background: rgb(4, 116, 192);
-    background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);
-    ;
-}
-
 #deal {
     margin-top: 5rem;
     text-align: center;
@@ -27,52 +16,8 @@ h1 {
 h2 {
     text-align: center;
 }
- h3{
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    height: 12rem;
-    font-size: 3.5rem;
-    font-family: 'Nanum Brush Script', cursive;
 
-
- }
-
-.flyer-a {
-    background-color: #c0dbe2;
-    flex: 1;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-}
-
-.flyer-b {
-    background-color: #cdf1c3;
-    flex: 1;
-}
-
-#halloween {
+img {
     width: 100%;
     height: auto;
-}
-
-.quick-links-container {
-    background-color: #000;
-    text-transform: uppercase;
-    margin: 7px 0;
-    height: 3rem;
-}
-
-.left-column {
-    padding: 14px 0;
-  
-    display: flex;
-}
-
-.right-column {
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-    color:#fff;
 }
