@@ -14,6 +14,9 @@ import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-imag
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
 import { BlogComponent } from './blog/blog.component';
 import { SlideShowComponent } from './blog/slide-show/slide-show.component';
+import { AboutUsComponent } from './blog/about-us/about-us.component';
+import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
+import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { SlideShowComponent } from './blog/slide-show/slide-show.component';
     CellPhoneImageComponent,
     QuickLinksComponent,
     BlogComponent,
-    SlideShowComponent
+    SlideShowComponent,
+    AboutUsComponent,
+    ModifyDeleteFormComponent,
+    SocialMediaLinksComponent
   ],
   imports: [
     BrowserModule,
