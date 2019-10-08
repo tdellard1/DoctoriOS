@@ -17,6 +17,7 @@ import { SlideShowComponent } from './blog/slide-show/slide-show.component';
 import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
+import { PromoComponent } from './home/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
     SlideShowComponent,
     AboutUsComponent,
     ModifyDeleteFormComponent,
-    SocialMediaLinksComponent
+    SocialMediaLinksComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,

@@ -27,6 +27,7 @@ img {
 .menu {
   display: flex;
   flex-direction: column;
+  padding-top: 6rem;
 }
 
 .menu a {
