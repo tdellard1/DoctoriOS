@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 
+import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent} from './toolbar/toolbar.component';
@@ -41,7 +42,8 @@ import { PromoComponent } from './home/promo/promo.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    Ng2CarouselamosModule
   ],
   providers: [],
   bootstrap: [AppComponent]

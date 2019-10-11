@@ -1,15 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'slide-show',
   templateUrl: './slide-show.component.html',
   styleUrls: ['./slide-show.component.css']
 })
-export class SlideShowComponent implements OnInit {
+export class SlideShowComponent {
 
-  constructor() { }
+  items: Array<any> = [];
 
-  ngOnInit() {
+  constructor() {
+    this.items = [
+      { name: 'assets/images/red-car.png' },
+      { name: 'assets/images/white-car.png' },
+      { name: 'assets/images/black-car.png' }
+    ];
   }
+
+
 
 }
