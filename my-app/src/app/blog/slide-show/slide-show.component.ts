@@ -1,11 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'slide-show',
   templateUrl: './slide-show.component.html',
   styleUrls: ['./slide-show.component.css']
 })
-export class SlideShowComponent {
+export class SlideShowComponent implements OnInit {
+  ngOnInit() {
+    setInterval(() => {
+      this.onNext();
+    }, 2000)
+  }
   selectedImageIndex = 0;
   images: Array<any> =
 
