@@ -1,5 +1,5 @@
-router-outlet {
-  margin: 7rem 25%;
+:host {
+  margin: 19rem 25%;
 
 }
 

@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-top: 8rem;
+
+}
+#logo {
+    border: 1px solid purple;
+ 
+}
