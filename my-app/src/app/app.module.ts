@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { CountdownTimerComponent } from './home/countdown-timer/countdown-timer.component';
 import { CellPhoneImageComponent } from './home/cell-phone-image/cell-phone-image.component';
 import { QuickLinksComponent } from './home/quick-links/quick-links.component';
+import { PromoComponent } from './home/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QuickLinksComponent } from './home/quick-links/quick-links.component';
     HomeComponent,
     CountdownTimerComponent,
     CellPhoneImageComponent,
-    QuickLinksComponent
+    QuickLinksComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,
