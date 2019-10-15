@@ -1,5 +1,5 @@
 <div>
     <button (click)="onPrevious()">Previous</button>
-    <img [src]="images[selectedImageIndex].image" id="logo">
+    <iframe [src]="images[selectedImageIndex].image" width="500" height="218" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
     <button (click)="onNext()">Next</button>
 </div>
