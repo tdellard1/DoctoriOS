@@ -10,7 +10,7 @@ export class SlideShowComponent implements OnInit {
   ngOnInit() {
     setInterval(() => {
       this.onNext();
-    }, 2000)
+    }, 2500)
   }
 
   constructor(private sanitizer: DomSanitizer) { }

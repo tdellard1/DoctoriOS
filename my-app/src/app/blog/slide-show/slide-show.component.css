@@ -1,13 +1,19 @@
 div {
     display: flex;
     flex-direction: row;
+    background-color: black;
 }
 
 button {
     margin-top: 8rem;
+    color: white;
 
 }
-#logo {
-    border: 1px solid purple;
- 
+iframe {
+    padding-top: 9rem;
+    height: 30rem;
+    width: 100%;
+}
+.fa-chevron-left {
+    color: pink;
 }

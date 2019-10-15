@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class CountdownTimerComponent {
   countDown = new Date('October 9, 2019 06:00:25').getTime();
   timer = '';
-  now = new Date().getTime();
 
 
   ngOnInit() {
