@@ -1,4 +1,4 @@
-.home-container {
+:host {
     margin: auto;
     display: flex;
 }
@@ -13,9 +13,6 @@
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-}
 
 img {
     width: 100%;
