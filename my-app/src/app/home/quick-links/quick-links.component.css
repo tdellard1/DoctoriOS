@@ -1,0 +1,17 @@
+.quick-links-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+.grid-item {
+    background-color: black;
+    border: 5px solid #fff;
+    padding: 20px;
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+
+}
