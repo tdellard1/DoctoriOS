@@ -9,3 +9,7 @@ p {
     line-height: 1.4;
     margin-bottom: 1rem;
 }
+img {
+    width: 100%;
+    height: auto;
+}

@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { Ng2CarouselamosModule } from 'ng2-carouselamos';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -33,7 +33,8 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
-    Ng2CarouselamosModule
+    Ng2CarouselamosModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
