@@ -19,10 +19,7 @@
             "polyfills": "apps/my-app/src/polyfills.ts",
             "tsConfig": "apps/my-app/tsconfig.app.json",
             "aot": false,
-            "assets": [
-              "apps/my-app/src/favicon.ico",
-              "apps/my-app/src/assets"
-            ],
+            "assets": ["apps/my-app/src/favicon.ico", "apps/my-app/src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "apps/my-app/src/styles.css"
@@ -85,10 +82,7 @@
             "polyfills": "apps/my-app/src/polyfills.ts",
             "tsConfig": "apps/my-app/tsconfig.spec.json",
             "karmaConfig": "apps/my-app/karma.conf.js",
-            "assets": [
-              "apps/my-app/src/favicon.ico",
-              "apps/my-app/src/assets"
-            ],
+            "assets": ["apps/my-app/src/favicon.ico", "apps/my-app/src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
               "apps/my-app/src/styles.css"
@@ -103,9 +97,7 @@
               "apps/my-app/tsconfig.app.json",
               "apps/my-app/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -130,13 +122,14 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/my-app-e2e/tsconfig.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
     }
   },
-  "defaultProject": "my-app"
+  "defaultProject": "my-app",
+  "cli": {
+    "defaultCollection": "@nrwl/nest"
+  }
 }
