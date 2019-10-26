@@ -7,12 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToolbarComponent} from './toolbar/toolbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatIconModule, MatMenuModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatMenuModule, MatInputModule, MatSelectModule } from '@angular/material';
 import { BlogComponent } from './blog/blog.component';
 import { SlideShowComponent } from './blog/slide-show/slide-show.component';
 import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,10 @@ import { SocialMediaLinksComponent } from './blog/social-media-links/social-medi
     MatButtonModule,
     MatMenuModule,
     Ng2CarouselamosModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

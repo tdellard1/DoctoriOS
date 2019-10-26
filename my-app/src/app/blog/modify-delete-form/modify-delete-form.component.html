@@ -1,15 +1,20 @@
 <div class="example-container">
-        <mat-form-field>
-          <input matInput placeholder="Input">
-        </mat-form-field>
-      
-        <mat-form-field>
-          <textarea matInput placeholder="Textarea"></textarea>
-        </mat-form-field>
-      
-        <mat-form-field>
-          <!-- <mat-select placeholder="Select">
-            <mat-option value="option">Option</mat-option>
-          </mat-select> -->
-        </mat-form-field>
-      </div>
+  <div class="feedback"> 
+    <h2>Tell Us How We Are Doing!</h2>
+    <h6>Kindly provide any information you want to say about our business</h6>
+  </div>
+  <mat-form-field floatLabel="never">
+    <input matInput placeholder="Input" required>
+
+  </mat-form-field>
+
+  <mat-form-field floatLabel="never">
+    <textarea matInput placeholder="Textarea"></textarea>
+  </mat-form-field>
+
+  <mat-form-field floatLabel="never">
+    <mat-select placeholder="Select">
+      <mat-option value="option">Option</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
