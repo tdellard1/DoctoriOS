@@ -1,0 +1,59 @@
+mat-toolbar {
+    position: fixed;
+    }
+    
+    .mat-toolbar {
+      height: 6rem;
+      background: rgb(4, 116, 192);
+      background: linear-gradient(90deg, rgba(4, 116, 192, 1) 32%, rgba(17, 118, 196, 1) 43%, rgba(236, 192, 39, 1) 66%);
+    }
+    
+    img {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 17rem;
+      height: 8rem;
+    }
+    
+    .spacer {
+      flex: 1 1 auto;
+    }
+    
+    .links {
+       display: none;
+     }
+    
+    .menu {
+      display: flex;
+      flex-direction: column;
+      padding-top: 6rem;
+    }
+    
+    .menu a {
+      color: grey;
+      width: 100%;
+      margin: 0 10px;
+      line-height: 70px;
+      text-decoration: none;
+      border-bottom: 1px solid #EAEAEB;
+      display: flex;
+      justify-content: center;
+    }
+    
+    @media only screen and (min-width: 600px) {
+      .links {
+        display: flex;
+      }
+    
+      .links a {
+        color: grey;
+        margin: 0 1rem;
+        line-height: 70px;
+        text-decoration: none;
+      }
+    
+      .menu, mat-icon {
+        display: none;
+      }
+    }
