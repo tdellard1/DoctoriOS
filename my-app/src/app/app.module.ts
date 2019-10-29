@@ -14,6 +14,7 @@ import { AboutUsComponent } from './blog/about-us/about-us.component';
 import { ModifyDeleteFormComponent } from './blog/modify-delete-form/modify-delete-form.component';
 import { SocialMediaLinksComponent } from './blog/social-media-links/social-media-links.component';
 import { FormsModule } from '@angular/forms';
+import { AppointmentPageComponent } from './appointment-page/appointment-page.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FormsModule } from '@angular/forms';
     AboutUsComponent,
     ModifyDeleteFormComponent,
     SocialMediaLinksComponent,
+    AppointmentPageComponent,
   ],
   imports: [
     BrowserModule,
